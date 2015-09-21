@@ -38,9 +38,8 @@ xtick_labels = (r"$\mu - 3 \sigma$",
 
 fig = plt.figure(1, figsize=(6, 4))
 ax = fig.add_subplot(111)
-ax.text(-2,-0.5,"Andres Zapata")
-ax.text(-2,-0.6, "andres_nzb@hotmail.com")
-
+ax.text(-2,-0.5,"Benjamin Venegas Rios")
+ax.text(-2,-0.6,"batibenji.07@gmail.com")
 ax.axhline(0, color='k')
 
 ax.fill_between(x_full, y_full, edgecolor='k', facecolor='0.8')
@@ -56,8 +55,6 @@ ax.set_xlim(-4, 4)
 ax.set_ylim(-0.1, 1.1)
 
 ax.text(0, 0.4, '68%', fontsize=12, color='w', va='center', ha='center')
-
-ax.savefig
 
 fig.subplots_adjust(bottom=0.30)
 
